@@ -24,11 +24,11 @@ Before you start contributing, please take a moment to read the following guidel
 
 ### Reporting Bugs
 
-If you find a bug, please ensure the bug was not already reported by searching on GitHub under [Issues](https://github.com/alvin-dennis/Personal-Portfolio-V2/issues). If you can't find an existing issue addressing the problem, please [open a new issue](https://github.com/Kritika30032002/Blog_Website/issues/new) and provide detailed information about the bug.
+If you find a bug, please ensure the bug was not already reported by searching on GitHub under [Issues](https://github.com/alvin-dennis/Personal-Portfolio-V2/issues). If you can't find an existing issue addressing the problem, please [open a new issue](https://github.com/alvin-dennis/Personal-Portfolio-V2/issues/new) and provide detailed information about the bug.
 
 ### Suggesting Enhancements
 
-If you have an idea for an enhancement, we welcome your input. Before creating a new enhancement issue, please check the existing issues to see if your enhancement idea has already been discussed. If it hasn't, [create a new issue](https://github.com/Kritika30032002/Blog_Website/issues/new) and outline your enhancement proposal.
+If you have an idea for an enhancement, we welcome your input. Before creating a new enhancement issue, please check the existing issues to see if your enhancement idea has already been discussed. If it hasn't, [create a new issue](https://github.com/alvin-dennis/Personal-Portfolio-V2/issues/new) and outline your enhancement proposal.
 
 ### Working on Issues
 

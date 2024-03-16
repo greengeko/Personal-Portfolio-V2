@@ -12,7 +12,7 @@ You can also check out the live demo of the portfolio website [here](https://alv
 Clone the Repo
 
 ```bash
-  git clone <reponame>
+git clone <reponame>
 ```
 
 Installation of dependencies

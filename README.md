@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This is a updated version of my portfolio website built using React, Tailwind CSS, and TypeScript. The website showcases my skills and projects as a full-stack developer.
+This is a updated version of my portfolio website built using React, Tailwind CSS, and TypeScript. This website showcases my skills and projects as a web developer.
 
 ## Demo
 

@@ -1,6 +1,6 @@
 # Contributing Guidelines
 
-Welcome to my open-source project! We appreciate your interest in contributing to our project. By contributing, you help us create a better software for everyone.
+Welcome to my open-source project! We appreciate your interest in contributing to my project. By contributing, you help me create a better software for everyone.
 
 Before you start contributing, please take a moment to read the following guidelines to ensure a smooth and effective contribution process.
 

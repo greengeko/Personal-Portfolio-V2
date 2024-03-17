@@ -1,6 +1,6 @@
 # Contributing Guidelines
 
-Welcome to our open-source project! We appreciate your interest in contributing to our HTML, CSS, JavaScript, EJS and MongoDB project. By contributing, you help us create a better software for everyone.
+Welcome to my open-source project! We appreciate your interest in contributing to our project. By contributing, you help us create a better software for everyone.
 
 Before you start contributing, please take a moment to read the following guidelines to ensure a smooth and effective contribution process.
 
@@ -19,6 +19,7 @@ Before you start contributing, please take a moment to read the following guidel
 - Clone your forked repository locally: `git clone https://github.com/alvin-dennis/Personal-Portfolio-V2.git`
 - Change your directory to the project: `cd <name>`
 - Install project dependencies: `npm install`
+- Run in server: `npm run dev`
 
 ## How Can I Contribute?
 

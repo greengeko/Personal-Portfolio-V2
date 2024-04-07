@@ -1,7 +1,5 @@
 import { createTransport } from 'nodemailer';
-import formidable from 'formidable';
-
-const form = new formidable.IncomingForm();
+import multer from 'multer';
 
 const transporter = createTransport({
     service: 'Gmail',
@@ -10,18 +8,21 @@ const transporter = createTransport({
         pass: process.env.EMAIL_PASSWORD
     }
 });
+
+const upload = multer();
+
 export default async function handler(req, res) {
     //console.log('EMAIL_USER:', process.env.EMAIL_USER);
     //console.log('EMAIL_PASSWORD:', process.env.EMAIL_PASSWORD);
     if (req.method === 'POST') {
 
-        await form.parse(req, async (err, fields) => {
+        upload.none()(req, res, async (err) => {
             if (err) {
                 console.error('Error parsing form data:', err);
                 return res.status(500).json({error: 'Failed to parse form data.'});
             }
 
-            const {name, email, subject, message} = fields;
+            const {name, email, subject, message} = req.body;
             try {
 
                 const mailOptions = {

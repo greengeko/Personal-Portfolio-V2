@@ -1,6 +1,8 @@
 import { createTransport } from 'nodemailer';
 import formidable from 'formidable';
 
+const form = new formidable.IncomingForm();
+
 const transporter = createTransport({
     service: 'Gmail',
     auth: {
@@ -9,10 +11,9 @@ const transporter = createTransport({
     }
 });
 export default async function handler(req, res) {
-    console.log('EMAIL_USER:', process.env.EMAIL_USER);
-    console.log('EMAIL_PASSWORD:', process.env.EMAIL_PASSWORD);
+    //console.log('EMAIL_USER:', process.env.EMAIL_USER);
+    //console.log('EMAIL_PASSWORD:', process.env.EMAIL_PASSWORD);
     if (req.method === 'POST') {
-        const form = new formidable.IncomingForm();
 
         await form.parse(req, async (err, fields) => {
             if (err) {
